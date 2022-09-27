@@ -31,6 +31,11 @@ td.person {
     height: 26px;
 }
 
+.button {
+    text-align: center;
+    height: 26px;
+}
+
 .sumNonZero {
     font-weight: bold;
 }
@@ -250,6 +255,25 @@ footer {
         right: 0%;
     }
 }
+
+.switch-toggle {
+   float: left;
+   background: #242729;
+}
+.switch-toggle input {
+  position: absolute;
+  opacity: 0;
+}
+.switch-toggle input + label {
+  padding: 7px;
+  float:left;
+  color: #fff;
+  cursor: pointer;
+}
+.switch-toggle input:checked + label {
+  background: green;
+}
+
 footer {
     background-color: #848484;
 }
